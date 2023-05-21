@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/departmentFragment">
+
+    <fragment
+        android:id="@+id/departmentFragment"
+        android:name="com.example.gayatrividhyaparishad.DepartmentFragment"
+        android:label="DepartmentFragment"
+        tools:layout="@layout/fragment_department" >
+        <action
+            android:id="@+id/action_departmentFragment_to_cseFragment"
+            app:destination="@id/cseFragment" />
+        <action
+            android:id="@+id/action_departmentFragment_to_eceFragment"
+            app:destination="@id/eceFragment" />
+        <action
+            android:id="@+id/action_departmentFragment_to_eeeFragment"
+            app:destination="@id/eeeFragment" />
+        <action
+            android:id="@+id/action_departmentFragment_to_chemFragment"
+            app:destination="@id/mechFragment" />
+        <action
+            android:id="@+id/action_departmentFragment_to_mechFragment"
+            app:destination="@id/mechFragment" />
+        <action
+            android:id="@+id/action_departmentFragment_to_civilFragment"
+            app:destination="@id/civilFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cseFragment"
+        android:name="com.example.gayatrividhyaparishad.CseFragment"
+        android:label="CseFragment"
+        tools:layout="@layout/fragment_cse" />
+
+    <fragment
+        android:id="@+id/eceFragment"
+        android:name="com.example.gayatrividhyaparishad.EceFragment"
+        android:label="EceFragment"
+        tools:layout="@layout/fragment_ece" />
+
+    <fragment
+        android:id="@+id/eeeFragment"
+        android:name="com.example.gayatrividhyaparishad.EeeFragment"
+        android:label="EeeFragment"
+        tools:layout="@layout/fragment_eee" />
+
+    <fragment
+        android:id="@+id/mechFragment"
+        android:name="com.example.gayatrividhyaparishad.MechFragment"
+        android:label="MechFragment"
+        tools:layout="@layout/fragment_mech" />
+
+    <fragment
+        android:id="@+id/chemFragment"
+        android:name="com.example.gayatrividhyaparishad.ChemFragment"
+        android:label="ChemFragment"
+        tools:layout="@layout/fragment_chem" />
+
+    <fragment
+        android:id="@+id/civilFragment"
+        android:name="com.example.gayatrividhyaparishad.CivilFragment"
+        android:label="CivilFragment"
+        tools:layout="@layout/fragment_civil" />
+</navigation>

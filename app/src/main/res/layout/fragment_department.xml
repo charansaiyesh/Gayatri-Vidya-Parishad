@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="18dp"
+    tools:context=".DepartmentFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_branch"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <Button
+        android:id="@+id/cse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        android:text="@string/cse_department"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <Button
+        android:id="@+id/ece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        app:cornerRadius="15dp"
+        android:textColor="@color/black"
+
+        android:text="@string/ece_department"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cse" />
+
+    <Button
+        android:id="@+id/eee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eee_department"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ece" />
+
+    <Button
+        android:id="@+id/mech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mechanical_department"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eee" />
+
+    <Button
+        android:id="@+id/chem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chemical_department"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mech" />
+
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/civil_department"
+        android:backgroundTint="#00FFFF"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

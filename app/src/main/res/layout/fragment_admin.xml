@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFragment">
+    <Button
+        android:id="@+id/addteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="#CF1856"
+        android:text="@string/add_teacher" />
+    <Button
+        android:id="@+id/removeteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="#CF1856"
+        android:text="@string/remove_teacher" />
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#CF1856"
+        android:text="@string/add_student" />
+</FrameLayout>
